@@ -1,0 +1,58 @@
+/* Profile Photo Styling */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    object-fit: cover;
+    margin-bottom: 20px; /* Adds spacing below the photo */
+  }
+  
+  /* Timeline Styling */
+  .timeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  /* Timeline List Item Styling */
+  .timeline li {
+    margin-bottom: 30px; /* Adds more space between timeline items */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px; /* Ensures spacing between the year and content */
+  }
+  
+  /* Timeline Year (Span) Styling */
+  .timeline li span {
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem; /* Increased font size for better readability */
+    padding: 10px 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: -35px; /* Adjusts the position of the year to the left */
+    top: 5px;
+    z-index: 1; /* Ensures the year is on top of content */
+  }
+  
+  /* Content for each timeline entry */
+  .timeline li .timeline-content {
+    background-color: #33363b; /* Background color for the content */
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow around the content */
+    width: 90%; /* Adjusts the content width */
+    margin-left: 50px; /* Ensures the content is aligned properly with the year */
+  }
+  .section-separator {
+    width: 70px;
+    height: 5px;
+    background-color: white;
+    margin: 0 auto 20px; /* Centers the line and adds space below it */
+  }
+  

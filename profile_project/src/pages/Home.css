@@ -1,0 +1,63 @@
+/* The section holding everything, with the background image */
+.home-section {
+    background-image: url('../assets/profiili_kuva.png'); /* Profile picture as background */
+    background-size: contain; /* Adjust the size of the background image */
+    background-position: center -100px; /* Move the image upward */
+    background-repeat: no-repeat;
+    background-color: #212429; /* Dark background color for sides */
+    height: 87vh; /* Adjust height to fit the content */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    position: relative; /* Ensure text can overlay on top */
+}
+
+/* Text container */
+.home-content {
+    text-align: center; /* Center the text */
+    color: white; /* White text color */
+    z-index: 1; /* Ensure text appears above the background */
+    position: relative; /* To ensure text stays on top of the background */
+    padding: 0 20px; /* Optional padding for spacing */
+}
+
+/* Adjustments for headings and text */
+.display-4 {
+    font-size: 2.5rem; /* Adjust font size for the heading */
+    margin-bottom: 1rem; /* Reduce space below the heading */
+}
+
+.lead {
+    font-size: 2rem; /* Adjust font size for paragraph */
+    margin-top: 15px; /* Reduce space above the paragraph */
+}
+.line-above {
+    width: 85px; /* Line width */
+    height: 3px; /* Line height */
+    background-color: white; /* Line color */
+    margin-bottom: 30px; /* Space between line and title */
+  }
+  .section-divider {
+    width: 100%; /* Full width */
+    height: 1px; /* Thickness of the line */
+    background-color: white; /* White color */
+    margin: 30px 0; /* Vertical margin to space out from other elements */
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  .info-block h2 {
+    margin-bottom: 15px; /* Space below "About me" and "My work" headings */
+}
+.info-block p {
+    margin-bottom: 30px; /* Space below "About me" and "My work" headings */
+}
+
+/* Optional: Apply some text shadow to make text stand out on background */
+.home-content h1,
+.home-content p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Shadow effect */
+}
+
+
+  
+  

@@ -1,0 +1,7 @@
+.title-separator {
+    width: 100px;
+    height: 7px;
+    background-color: white;
+    margin: 0 auto; /* Center the separator */
+  }
+  
