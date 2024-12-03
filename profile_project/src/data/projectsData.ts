@@ -13,14 +13,14 @@ export const projects: Project[] = [
     date: "2024",
     description: "A personal portfolio to showcase my projects and skills.",
     technologies: ["React", "TypeScript", "Node.js"],
-    link: "https://myportfolio.com",
+    link: "https://github.com/Esajeppis/Profilepages",
   },
   {
     title: "Online shop",
     date: "2024",
     description: "An online shopping application designed to demonstrate and train skills in full-stack development. It features user authentication, shopping cart functionality, an admin management panel, and database integration for seamless data handling.",
     technologies: ["React", "TypeScript", "Bootstrap", "Express.js", "Node.js", "PostgreSQL", "Context API"],
-    link: "https://ecommerce.com",
+    link: "https://github.com/Esajeppis/Online_store",
   },
   {
     title: "Webpage for Porin asbesti",
