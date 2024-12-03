@@ -31,23 +31,27 @@
     font-size: 2rem; /* Adjust font size for paragraph */
     margin-top: 15px; /* Reduce space above the paragraph */
 }
+
 .line-above {
     width: 85px; /* Line width */
     height: 3px; /* Line height */
     background-color: white; /* Line color */
     margin-bottom: 30px; /* Space between line and title */
-  }
-  .section-divider {
+}
+
+.section-divider {
     width: 100%; /* Full width */
     height: 1px; /* Thickness of the line */
     background-color: white; /* White color */
     margin: 30px 0; /* Vertical margin to space out from other elements */
     margin-bottom: 50px;
     margin-top: 50px;
-  }
-  .info-block h2 {
+}
+
+.info-block h2 {
     margin-bottom: 15px; /* Space below "About me" and "My work" headings */
 }
+
 .info-block p {
     margin-bottom: 30px; /* Space below "About me" and "My work" headings */
 }
@@ -57,6 +61,90 @@
 .home-content p {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Shadow effect */
 }
+
+/* Adjust responsiveness for smaller screens (max-width: 576px for phones) */
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 2rem; /* Smaller font for the heading */
+    }
+
+    .lead {
+        font-size: 1.5rem; /* Smaller font for paragraph */
+    }
+
+    .home-section {
+        height: auto; /* Allow height to adjust on small screens */
+        padding: 30px 0; /* Add padding to the section for better spacing */
+    }
+
+    .home-content {
+        padding: 10px; /* Adjust padding to ensure text doesn't touch edges */
+    }
+
+    .line-above {
+        width: 60px; /* Reduce the line width on smaller screens */
+        margin-bottom: 20px; /* Reduce space between the line and the heading */
+    }
+
+    .section-divider {
+        margin: 20px 0; /* Reduced margin for section divider */
+    }
+
+    .info-block h2 {
+        font-size: 1.4rem; /* Smaller heading size for "About me" and "My work" */
+    }
+
+    .info-block p {
+        font-size: 1rem; /* Smaller paragraph font */
+    }
+
+    .info-block a {
+        font-size: 0.9rem; /* Slightly smaller button font */
+        padding: 8px 15px; /* Reduce padding for buttons */
+    }
+}
+
+/* Adjust further for very small screens (below 400px) */
+@media (max-width: 400px) {
+    .home-section {
+        padding: 15px 0; /* Reduce padding for very small screens */
+    }
+
+    .display-4 {
+        font-size: 1.8rem;  /* Smaller font for very small screens */
+    }
+
+    .lead {
+        font-size: 1rem;  /* Smaller font for paragraph text */
+    }
+
+    .home-content {
+        padding: 5px; /* Ensure content doesn't touch edges */
+    }
+
+    .line-above {
+        width: 50px; /* Even smaller line width */
+        margin-bottom: 10px; /* Tighten spacing between line and heading */
+    }
+
+    .section-divider {
+        margin: 10px 0; /* Further reduce space between sections */
+    }
+
+    .info-block h2 {
+        font-size: 1.2rem; /* Further reduce font size for "About me" and "My work" */
+    }
+
+    .info-block p {
+        font-size: 0.9rem; /* Further reduce paragraph font size */
+    }
+
+    .info-block a {
+        font-size: 0.8rem; /* Make buttons even smaller */
+        padding: 6px 12px; /* Reduce padding for small buttons */
+    }
+}
+
 
 
   
