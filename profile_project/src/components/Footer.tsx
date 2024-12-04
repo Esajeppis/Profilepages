@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <p>Email: <a href="mailto:espekki@hotmail.com" className="text-white">espekki@hotmail.com</a></p>
           <p>
             <a 
-              href="www.linkedin.com/in/esa-heikkilä-b3b58a225" 
+              href="https://www.linkedin.com/in/esa-heikkilä-b3b58a225" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-white"

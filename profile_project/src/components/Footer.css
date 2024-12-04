@@ -1,0 +1,10 @@
+footer .contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
