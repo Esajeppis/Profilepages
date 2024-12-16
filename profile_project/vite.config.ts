@@ -4,4 +4,11 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  server: {
+    fs: {
+      strict: false, // Optional: Loosens restrictions on serving files outside root
+    },
+    // Fallback behavior for single-page applications
+    middlewareMode: false,
+  },
+  })
