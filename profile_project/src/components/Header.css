@@ -31,7 +31,7 @@
 }
 
 /* Media Query for small screens (less than 400px) */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     /* Adjust logo size */
     .header-logo {
         width: 50px;

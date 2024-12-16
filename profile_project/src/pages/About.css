@@ -84,7 +84,7 @@
 }
 
 /* For screens under 400px (mobile devices) */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   /* Profile photo */
   .profile-photo {
       width: 100px;

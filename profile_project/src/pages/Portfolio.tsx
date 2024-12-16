@@ -39,7 +39,7 @@ const Portfolio: React.FC = () => {
                     {project.technologies.map((tech, idx) => (
                       <li
                         key={idx}
-                        className="list-inline-item badge bg-primary text-light p-2"
+                        className="list-inline-item badge bg-primary text-light p-2 mt-2"
                       >
                         {tech}
                       </li>
