@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   return (
@@ -22,9 +23,9 @@ const Home: React.FC = () => {
               <p className="fs-5">
                 Follow the link if you want to know more about me and my hobbies.
               </p>
-              <a href="/about" className="btn btn-outline-light">
+              <Link to="/about" className="btn btn-outline-light">
                 Learn more &rarr;
-              </a>
+              </Link>
             </div>
             <div className="section-divider mb-4"></div>
             <div className="info-block">
@@ -32,9 +33,9 @@ const Home: React.FC = () => {
               <p className="fs-5">
                 Follow the link if you want to see some of my latest projects.
               </p>
-              <a href="/portfolio" className="btn btn-outline-light">
+              <Link to="/portfolio" className="btn btn-outline-light">
                 Browse portfolio &rarr;
-              </a>
+              </Link>
             </div>
           </div>
         </div>
